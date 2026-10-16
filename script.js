@@ -1,9 +1,9 @@
 // CONTACT : remplir ces champs avant la mise en ligne.
 // Laisser un champ vide pour ne pas afficher le lien correspondant.
 const CONTACT = {
-  email: "", // Exemple : "mamilouartisanat@gmail.com"
-  telephone: "", // Exemple : "5144625090"
-  facebook: "" // Exemple : "https://www.facebook.com/mamilou.creations"
+  email: "mamilouartisanat@gmail.com", // Exemple : "mamilouartisanat@gmail.com"
+  telephone: "5144625090", // Exemple : "5144625090"
+  facebook: "https://www.facebook.com/mamilou.creations" // Exemple : "https://www.facebook.com/mamilou.creations"
 };
 
 // Chaque entrée correspond à une des photographies fournies.
