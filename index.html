@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mamilou — couture, accessoires faits main, macramé et créations artisanales. Découvrez les réalisations et contactez l’artisane pour discuter de votre projet.">
+  <meta name="theme-color" content="#f7f3ed">
+  <title>Mamilou — Couture & créations artisanales</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header"><a class="brand" href="#accueil" aria-label="Mamilou, accueil">Mamilou<span class="brand-dot">.</span></a><nav aria-label="Navigation principale"><a href="#creations">Créations</a><a href="#couture">Couture</a><a href="#apropos">À propos</a><a class="nav-cta" href="#contact">Me contacter <span aria-hidden="true">↗</span></a></nav><button class="menu-toggle" aria-label="Afficher le menu" aria-expanded="false">☰</button></header>
+<main id="accueil">
+  <section class="hero"><div class="hero-copy"><p class="eyebrow"><span class="line"></span> FAIT À LA MAIN, AVEC CŒUR</p><h1>Des créations<br><em>uniques,</em><br>à votre image.</h1><p class="lead">Couture, accessoires et créations artistiques : découvrez l’univers de Mamilou, où chaque pièce raconte une histoire.</p><div class="hero-actions"><a class="button dark" href="#creations">Découvrir les créations <span>↗</span></a><a class="simple-link" href="#contact">Parlons de votre projet <span>→</span></a></div><div class="hero-note">Petites créations. Grandes attentions.</div></div><div class="hero-photo"><img src="images/img_3725.webp" alt="Décorations artisanales en macramé, réalisées à la main" fetchpriority="high"><div class="floating-tag">Fait avec amour <span>✳</span></div></div></section>
+  <section class="intro-stripe"><span>CRÉATIVITÉ</span><i>✳</i><span>SAVOIR-FAIRE</span><i>✳</i><span>PIÈCES UNIQUES</span><i>✳</i><span>FAIT MAIN</span></section>
+  <section id="creations" class="section gallery-section"><div class="section-head"><div><p class="eyebrow">L'ATELIER MAMILOU</p><h2>Un aperçu de mes <em>créations</em></h2></div><p>Des idées transformées en objets uniques, pratiques ou décoratifs. Voici quelques pièces sorties de l’atelier.</p></div><div class="filters" role="group" aria-label="Filtrer les créations"><button class="filter active" data-filter="all" aria-pressed="true">Toutes les créations</button><button class="filter" data-filter="macrame" aria-pressed="false">Macramé & déco</button><button class="filter" data-filter="couture" aria-pressed="false">Couture & accessoires</button><button class="filter" data-filter="bijoux" aria-pressed="false">Bijoux & objets</button></div><div class="gallery" id="gallery"></div><p class="gallery-note">Ces photos présentent des réalisations. Pour connaître les possibilités de créations ou de personnalisation, contactez Mamilou.</p></section>
+  <section id="couture" class="service-section"><div class="service-image"><img loading="lazy" src="images/img_3746.webp" alt="Espace de travail de couture avec machine à coudre et matériel"></div><div class="service-copy"><p class="eyebrow">SUR MESURE, À VOTRE GOÛT</p><h2>La couture,<br><em>au fil de vos idées.</em></h2><p>Un projet en tête ? Une envie de création textile ? Parlons ensemble de ce qu’il serait possible de réaliser.</p><p>Les demandes sont discutées individuellement selon le projet et les disponibilités de l’atelier.</p><a class="button dark" href="#contact">Discuter d’un projet <span>↗</span></a></div></section>
+  <section id="apropos" class="section about-section"><div><p class="eyebrow">DERRIÈRE CHAQUE CRÉATION</p><h2>Le plaisir de <em>créer.</em></h2></div><div><p>Bienvenue chez Mamilou, un univers de confection et de créations artisanales où les matériaux, les couleurs et les petits détails prennent vie.</p><p>Chaque pièce présentée ici témoigne du temps, de la patience et du plaisir de fabriquer de ses mains.</p><p class="subtle">Un petit atelier, beaucoup d'imagination.</p></div></section>
+  <section id="contact" class="contact-section"><div class="contact-panel"><p class="eyebrow">UNE QUESTION ? UNE IDÉE ?</p><h2>Créons quelque chose <em>ensemble.</em></h2><p>Vous aimez une création ou vous souhaitez discuter d'un projet ? Écrivez à Mamilou pour en parler.</p><div id="contact-methods" class="contact-methods"></div><p id="contact-pending" class="contact-pending">Les coordonnées de contact seront ajoutées prochainement.</p></div><img loading="lazy" src="images/img_3750.webp" alt="Fleurs faites à la main en tissu aux tons doux"></section>
+</main>
+<footer><a href="#accueil" class="brand">Mamilou<span class="brand-dot">.</span></a><span>Conçu avec soin · © <span id="year"></span> Mamilou</span><a href="#accueil">Retour en haut ↑</a></footer>
+<dialog id="lightbox" aria-label="Agrandissement de la création"><button class="lightbox-close" aria-label="Fermer l'image">×</button><img alt=""><p></p></dialog>
+<script src="script.js" defer></script>
+</body></html>
